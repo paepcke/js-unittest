@@ -1,0 +1,28 @@
+{
+    "name": "@paepcke/unittest",
+    "version": "1.0.0",
+    "description": "Mimics Python's unittest module for JS",
+    "main": "unittest.mjs",
+    "type": "module",
+    "exports": {
+        ".": "./src/unittest.mjs"
+    },
+    "scripts": {
+        "test": "find_test_files"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/paepcke/js-unittest.git"
+    },
+    "keywords": [
+        "unittest",
+        "testing",
+        "javascript"
+    ],
+    "author": "Andreas Paepcke",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/paepcke/js-unittest/issues"
+    },
+    "homepage": "https://github.com/paepcke/js-unittest#readme"
+}
